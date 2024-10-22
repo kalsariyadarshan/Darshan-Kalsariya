@@ -1,6 +1,14 @@
-module.exports = {
-  swcMinify: true, // Enable SWC minifier
+/** @type {import('next').NextConfig} */
+
+const nextConfig = {
+  reactStrictMode: false,
+  swcMinify: false,
+
   experimental: {
-    forceSwcTransforms: true, // Force WASM fallback for SWC
+    swcLoader: true, // Enable SWC loader (optional)
+    swcMinify: true, // Enable SWC minifier
+    forceSwcTransforms: true, // Fallback to WASM
   },
 };
+
+module.exports = nextConfig;

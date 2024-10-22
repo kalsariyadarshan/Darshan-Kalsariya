@@ -1,9 +1,7 @@
 {
     "build": {
       "env": {
-        "NEXT_PUBLIC_ENV_VAR": "value"
-      },
-      "useBuildCommand": true
+        "NEXT_PUBLIC_API_URL": "your-api-url"
+      }
     }
   }
-  

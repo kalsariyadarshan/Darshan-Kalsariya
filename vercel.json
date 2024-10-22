@@ -1,0 +1,9 @@
+{
+    "build": {
+      "env": {
+        "NEXT_PUBLIC_ENV_VAR": "value"
+      },
+      "useBuildCommand": true
+    }
+  }
+  

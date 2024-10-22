@@ -2,7 +2,7 @@
 
 const nextConfig = {
   reactStrictMode: false,
-  swcMinify: true,
+  swcMinify: false,
 
   experimental: {
     swcLoader: true, // Enable SWC loader (optional)
